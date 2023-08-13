@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(rgb(255, 255, 255),rgb(196, 234, 255));
+    height: 100vh;
+}
+.main-body{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.calc{
+    width: 400px;
+    height: 620px;
+    background: rgb(183, 183, 183);
+    border-radius: 10px;
+    
+}
+#screen{
+    width: 85%;
+    margin-left:15px;
+    height: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    pointer-events: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+.btn{
+    width:20%;
+    height:60%;
+    margin: 2%;
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgb(0 0 0 / 41%);
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn:hover{
+    border: solid 1px rgb(0, 0, 0);
+    transition:border 0.5s;
+}
+#clearbtn{
+    background-color: rgb(255, 119, 0);
+    color: white;
+}
+
+#calcbtn{
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+#equalbtn{
+    background-color: rgb(5, 112, 148);
+    color: rgb(255, 255, 255);
+}
